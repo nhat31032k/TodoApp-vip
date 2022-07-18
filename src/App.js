@@ -9,8 +9,8 @@ function App() {
   return (
     <div
       style={{
-        width: 500,
-        margin: '0 auto',
+        width: "500px",
+        margin: 'auto',
         display: 'flex',
         flexDirection: 'column',
         backgroundColor: 'white',
@@ -18,6 +18,8 @@ function App() {
         boxShadow: '0 0 10px 4px #bfbfbf',
         borderRadius: 5,
         height: '90vh',
+        alignItems: 'center',
+        // justifyContent: 'center'
       }}
     >
       <Title style={{ textAlign: 'center' }}>TODO APP with REDUX</Title>
