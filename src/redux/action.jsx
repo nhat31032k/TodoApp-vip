@@ -3,6 +3,7 @@ export const addTodoAction = (data) => ({
     payload: data
 })
 
+<<<<<<< HEAD
 export const searchTodo = (text) => ({
     type: 'SEARCH_TODO',
     payload: text
@@ -29,3 +30,5 @@ export const toggleStatus = (todoId) =>
         payload: todoId
     }
 }
+=======
+>>>>>>> 858fbd805e1bdb2356c726867fc1d1bae989b8b6

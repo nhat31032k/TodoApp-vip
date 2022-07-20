@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // import {createStore} from 'redux';
 // import reducer from './reducer';
 // const store = createStore(reducer);
@@ -25,4 +26,10 @@ const reducer = combineReducers({
 const store = configureStore({
     reducer,
 });
+=======
+import {createStore} from 'redux';
+import reducer from './reducer';
+const store = createStore(reducer);
+
+>>>>>>> 858fbd805e1bdb2356c726867fc1d1bae989b8b6
 export default store;
